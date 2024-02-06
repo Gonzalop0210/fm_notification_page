@@ -16,7 +16,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%)
+- White: hsl(0, 0%, 100%)hsl(0, 0%, 100%)
 - Very light grayish blue: hsl(210, 60%, 98%)
 - Light grayish blue 1: hsl(211, 68%, 94%)
 - Light grayish blue 2: hsl(205, 33%, 90%)
