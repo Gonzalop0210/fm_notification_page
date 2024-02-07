@@ -25,10 +25,11 @@ body {
     font-family: 'jarka';
     display: flex;
     justify-content: center;
+    padding: 40px 0;
 }
 
 .body__item {
-    width: 95%;
+    width: 470px;
 }
 
 header {
@@ -71,6 +72,11 @@ header p , b {
     border-radius: 50%;
     background-color: var(--red);
     display: inline-block;
+    transition: transform .5s;
+}
+
+.animation__punto__rojo {
+    transform: scale(0,0);
 }
 
 .tiempo {
@@ -86,9 +92,14 @@ header p , b {
     border-radius: 10px;
     height: auto;
     padding: 10px;
+    transition: background-color .5s;
     &:hover {
         cursor: pointer;
     }
+}
+
+.animation__section {
+    background-color: transparent;
 }
 
 .container__img__perfil img {
@@ -137,6 +148,6 @@ main {
 
 .mostrar__texto__completo {
     border: 1px solid var(--blue);
-    min-height: 30px;
-    max-height: 80px;
+    padding: 10px 5px;
+    height: 75px;
 }
